@@ -1,5 +1,4 @@
 The Archer Adventure
-University Project for Internet Games Design
 By Daniel Watts
 
 
