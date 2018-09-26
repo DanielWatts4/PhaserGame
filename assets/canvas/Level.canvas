@@ -1,0 +1,1406 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 800,
+    "sceneHeight": 600,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 256,
+    "stepHeight": 256,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      255,
+      255,
+      255
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.initScene();",
+    "create_after": "\r\n\r\n"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      255,
+      255,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "70d51c48-d7da-46e5-bea2-f435589c63f2",
+          "asset": "0",
+          "info": {
+            "editorName": "Background",
+            "x": -485,
+            "y": -534
+          }
+        },
+        {
+          "type": "image",
+          "id": "524a201a-979d-432b-aad0-babb3868c4b6",
+          "asset": "0",
+          "info": {
+            "editorName": "Background1",
+            "x": 2912,
+            "y": -532
+          }
+        },
+        {
+          "type": "image",
+          "id": "5cfb3371-c882-4904-8a26-3b87796e9c41",
+          "asset": "0",
+          "info": {
+            "editorName": "Background2",
+            "x": 6309,
+            "y": -538
+          }
+        },
+        {
+          "type": "image",
+          "id": "dc4bd4cd-3bf5-4061-88d4-d7cef8581b4a",
+          "asset": "0",
+          "info": {
+            "editorName": "Background3",
+            "x": 9710,
+            "y": -538
+          }
+        },
+        {
+          "type": "group",
+          "id": "671c2589-9a99-411e-bfb6-4db18b1656e6",
+          "info": {
+            "editorName": "collisionLayer",
+            "editorPublic": true,
+            "x": -13,
+            "y": 374,
+            "physicsGroup": true,
+            "setAll": [
+              {
+                "key": "body.immovable",
+                "value": "true"
+              },
+              {
+                "key": "body.allowGravity",
+                "value": "false"
+              },
+              {
+                "key": "renderable",
+                "value": "false"
+              }
+            ],
+            "children": [
+              {
+                "type": "tileSprite",
+                "id": "232eeedd-a448-406e-9bfd-db8b74ec4f1b",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png",
+                  "x": 19,
+                  "y": 340,
+                  "scale.y": 0.988031957832946,
+                  "width": 597.120002746582,
+                  "height": 144.38400268554688
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "1f8b1e52-1f74-4b0d-a4d6-31b846f8efc6",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png2",
+                  "x": 1020,
+                  "y": 605.2388526680415,
+                  "scale.x": 0.4270096599793312,
+                  "scale.y": -0.37633004851804336,
+                  "width": 597.120002746582,
+                  "height": 144.38400268554688
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "45e4ee99-5b13-40e3-89c8-d781d0cd3c30",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png5",
+                  "x": 149,
+                  "y": 341,
+                  "scale.x": 4.816000373081679
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "952dabee-971a-4538-a82f-3504546bff8d",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png6",
+                  "x": 742.5708659142107,
+                  "y": 455,
+                  "scale.x": 2.187999303831606
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "1baad2db-f9f9-42a8-9248-e1f40a07e5dd",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png1",
+                  "x": 1042.4323283823153,
+                  "y": 549,
+                  "scale.x": 3.2002010843020887
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "9b7f1d31-22c5-49b5-8d28-d0af6daf4711",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png4",
+                  "x": 1349,
+                  "y": 490.91386265779084,
+                  "scale.x": 1.2488327608754997,
+                  "scale.y": 0.8949998215757661
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "c71c4790-29ce-4941-be57-293a86e1d240",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png7",
+                  "x": 1462,
+                  "y": 436,
+                  "scale.x": 2.7107200945169647,
+                  "scale.y": 1.2488317528126107
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "7fd4af8f-6dfc-4f85-8ca8-4e29b985773b",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png8",
+                  "x": 1722,
+                  "y": 388,
+                  "scale.x": 5.663393816726356,
+                  "scale.y": 1.1244160308813747
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "5ad568ef-9f06-4971-84ca-17073777978c",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png9",
+                  "x": 2421,
+                  "y": 518,
+                  "scale.x": 13.517153631835749,
+                  "scale.y": 1.3836157332693242
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "87682146-74d7-42b2-a3c6-791d417f0e17",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png10",
+                  "x": 2080,
+                  "y": 225,
+                  "scale.x": 1.1288351180801566,
+                  "scale.y": 0.7749992985594255
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "318b5da5-a490-4f86-be12-f02bae30b181",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png11",
+                  "x": 2189,
+                  "y": 190,
+                  "scale.x": 1.1288351180801566,
+                  "scale.y": 0.7749992985594255
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "e288d260-e764-4b86-bf14-adcb6af96dee",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png12",
+                  "x": 2299,
+                  "y": 153,
+                  "scale.x": 1.1288351180801566,
+                  "scale.y": 0.7749992985594255
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "73b7afa4-a1f9-4662-a798-3c5060778c3e",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png13",
+                  "x": 2406,
+                  "y": 117,
+                  "scale.x": 1.1288351180801566,
+                  "scale.y": 0.7749992985594255
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "e9475b06-de13-443f-990c-ef265b1c828c",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png14",
+                  "x": 2308,
+                  "y": 439,
+                  "scale.x": 1.1288351180801566,
+                  "scale.y": 0.7749992985594255
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "d2ddedf6-b5d1-4bec-a86b-d79feb11abe2",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png15",
+                  "x": 2608,
+                  "y": 9,
+                  "scale.x": 13.517153631835749,
+                  "scale.y": 1.3836157332693242
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "c40254dd-7db7-494b-a4f2-430d3704b467",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png16",
+                  "x": 3952,
+                  "y": 194,
+                  "scale.x": 10.4067506619102,
+                  "scale.y": 1.3836157332693242
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "106d78b7-f2d9-4dbb-be1b-7888fbd38fc5",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png17",
+                  "x": 4715,
+                  "y": 130,
+                  "scale.x": 2.5285136607686076,
+                  "scale.y": 1.1897193168865952
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "45442675-cd03-4b81-841f-796fade5094e",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png18",
+                  "x": 3937,
+                  "y": 127,
+                  "scale.x": 2.5285136607686076,
+                  "scale.y": 1.1897193168865952
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "ce41bb3d-f243-479a-b089-a40b713fa80a",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png3",
+                  "x": 5178,
+                  "y": 140,
+                  "scale.x": 2.5285136607686076,
+                  "scale.y": 1.5266790966980077
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "3fa8b049-8d93-458c-8232-82d082055b10",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png19",
+                  "x": 5730,
+                  "y": 463,
+                  "scale.x": 2.5285136607686076,
+                  "scale.y": 1.5266790966980077
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "b82827d2-5703-4104-9e19-c8288b6cacef",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png20",
+                  "x": 6268,
+                  "y": 466,
+                  "scale.x": 2.5285136607686076,
+                  "scale.y": 1.5266790966980077
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "9fb7a731-ae9d-47e2-b772-d9c900d1fdee",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png21",
+                  "x": 6564,
+                  "y": 636,
+                  "scale.x": 2.5285136607686076,
+                  "scale.y": 1.5266790966980077
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "1ea5dfb0-328e-49b8-8a35-0afc90909e8c",
+                "asset": "1",
+                "info": {
+                  "editorName": "collisionTIle_png22",
+                  "x": 6977,
+                  "y": 475,
+                  "scale.x": 6.235071778749543,
+                  "scale.y": 1.5266790966980077
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "id": "0c882ea1-d93e-47c7-b75f-19de9ed8f3b5",
+          "info": {
+            "editorName": "text",
+            "x": 6,
+            "y": 591,
+            "scale.x": 0.9378092100602295,
+            "scale.y": 1.1502605313212921,
+            "text": "Use left and right arrow keys to move."
+          }
+        },
+        {
+          "type": "text",
+          "id": "2bfe2135-9575-4c0a-b537-e9ce64edd176",
+          "info": {
+            "editorName": "text1",
+            "x": 1078,
+            "y": 775,
+            "scale.x": 1.067611520484361,
+            "scale.y": 1.0751302236089735,
+            "text": "Use up arrow to jump"
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "bf80eccf-c292-489a-adc8-49b202494f21",
+          "asset": "1",
+          "info": {
+            "editorName": "fallDeath",
+            "x": -1267.0884553753592,
+            "y": 1173,
+            "scale.x": 102.22851642096776
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "2511458a-0832-4013-adc5-fe552559260e",
+          "asset": "2",
+          "info": {
+            "editorName": "Object_4_png",
+            "x": 3485,
+            "y": 832,
+            "scale.x": 0.2518443931968381,
+            "scale.y": 0.22530243418739826
+          }
+        },
+        {
+          "type": "group",
+          "id": "0edafdc8-b81d-4d0a-bb59-9da3e5ff8309",
+          "info": {
+            "editorName": "scenery",
+            "x": -13,
+            "y": 374,
+            "setAll": [],
+            "children": [
+              {
+                "type": "atlas-sprite",
+                "id": "55c42254-428c-4f42-a327-a171bf03730e",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png1",
+                  "x": 2078,
+                  "y": 169,
+                  "scale.x": 0.4374999595199286,
+                  "scale.y": 0.5050000128334509
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "8bedaa32-8660-46a6-a67a-c08019d0cdb0",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png2",
+                  "x": 2187,
+                  "y": 137,
+                  "scale.x": 0.4374999595199286,
+                  "scale.y": 0.5050000128334509
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "9ab346b8-d5e5-4e1f-b2f3-aae96c9f09c0",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png3",
+                  "x": 2298,
+                  "y": 98,
+                  "scale.x": 0.4374999595199286,
+                  "scale.y": 0.5050000128334509
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "724468e2-346d-4c7f-8e24-f4f077f21270",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png4",
+                  "x": 2405,
+                  "y": 61,
+                  "scale.x": 0.4374999595199286,
+                  "scale.y": 0.5050000128334509
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "e8d908c5-45b3-41bb-b3af-c3ccdc598abe",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png5",
+                  "x": 2306,
+                  "y": 385,
+                  "scale.x": 0.4374999595199286,
+                  "scale.y": 0.5050000128334509
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "02506854-408a-4460-83a9-bd778c4ad0ce",
+                "asset": "4",
+                "info": {
+                  "editorName": "Tile_10_png1",
+                  "x": 2341,
+                  "y": 406
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "132d0b68-f237-4f9d-947c-c0f88665efbe",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png3",
+                  "x": 2595,
+                  "y": 403
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "738c91f5-b766-43c3-89a9-65c7bf2e0c54",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png4",
+                  "x": 2846,
+                  "y": 403
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "0644db50-6e33-4f03-91cd-488e3686e6c3",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png5",
+                  "x": 3087,
+                  "y": 402
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "f310f4fb-d356-463b-b1fb-ed8c3636000a",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png6",
+                  "x": 3338,
+                  "y": 402
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "427b3ff4-0d57-42b9-8d53-22a42131c2d9",
+                "asset": "6",
+                "info": {
+                  "editorName": "Tile_12_png1",
+                  "x": 3559,
+                  "y": 403
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "47c9cac8-3d89-4b38-8686-ebcad9e75bff",
+                "asset": "4",
+                "info": {
+                  "editorName": "Tile_10_png2",
+                  "x": 2520,
+                  "y": -105
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "f3f5294d-e44d-4e3d-b294-162eaa2f3760",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png7",
+                  "x": 2774,
+                  "y": -105
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "e2e7d573-f7c0-4c9a-98db-c6a6444b6988",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png8",
+                  "x": 3025,
+                  "y": -105
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "87ceeb97-afc0-4bfa-8853-5509eb99bebb",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png9",
+                  "x": 3266,
+                  "y": -105
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "d7a599b9-42fa-4f44-ac9f-7b854d5ae757",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png10",
+                  "x": 3522,
+                  "y": -105
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "bfa079d5-552a-4620-a504-c027dda61ab6",
+                "asset": "6",
+                "info": {
+                  "editorName": "Tile_12_png2",
+                  "x": 3778,
+                  "y": -106
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "9b6bbd73-d129-41fd-8c1f-dfe680ea61c0",
+                "asset": "7",
+                "info": {
+                  "editorName": "Tile_2_png1",
+                  "x": 3957,
+                  "y": 78
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "caf07605-c32f-4dab-a292-51e15274a74c",
+                "asset": "7",
+                "info": {
+                  "editorName": "Tile_2_png2",
+                  "x": 4201,
+                  "y": 79
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "b7fadb85-9005-430b-a2c1-0d23673ba92d",
+                "asset": "7",
+                "info": {
+                  "editorName": "Tile_2_png3",
+                  "x": 4447,
+                  "y": 79
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "06dfe1aa-9908-4b31-a24d-925075bd3a4f",
+                "asset": "7",
+                "info": {
+                  "editorName": "Tile_2_png4",
+                  "x": 4691,
+                  "y": 79
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "8814cb29-49ca-4cf2-8e87-19e788af0d67",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png6",
+                  "x": 3930,
+                  "y": 2
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "3687ee56-d519-4595-9a90-ea9760c90700",
+                "asset": "4",
+                "info": {
+                  "editorName": "Tile_10_png",
+                  "x": -64,
+                  "y": 231
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "6dcff5b8-3788-4c23-9f8b-38f1223794bd",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png",
+                  "x": 192,
+                  "y": 231
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "8487b40d-5a10-4d8b-b116-ecb31a3e7cb1",
+                "asset": "8",
+                "info": {
+                  "editorName": "Object_20_png",
+                  "x": 754,
+                  "y": -42
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "9fb21d0c-aa84-43d5-bad3-9e0148143820",
+                "asset": "9",
+                "info": {
+                  "editorName": "Object_1_png",
+                  "x": 304,
+                  "y": 175,
+                  "scale.x": 0.7131248474543919,
+                  "scale.y": 0.6850000128024378
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "4fa5b81d-91a7-4503-9515-a458d55d4619",
+                "asset": "6",
+                "info": {
+                  "editorName": "Tile_12_png",
+                  "x": 441,
+                  "y": 231
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "ac0c31b1-99c5-4c2c-b637-0621f9a3e104",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png",
+                  "x": 718,
+                  "y": 346
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "41dd31ba-eab7-4701-b811-8b6faaf79784",
+                "asset": "10",
+                "info": {
+                  "editorName": "Tile_4_png",
+                  "x": 1620,
+                  "y": 536
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "827d031f-7998-42cf-9e1f-92ec4f20e006",
+                "asset": "11",
+                "info": {
+                  "editorName": "Tile_1_png",
+                  "x": 1619,
+                  "y": 282
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "90aa5cd3-d1bd-45cd-b4d4-ba76bad90c20",
+                "asset": "12",
+                "info": {
+                  "editorName": "Tile_5_png",
+                  "x": 1870,
+                  "y": 536
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "0090f598-fb27-46e4-ad92-c1a4b6bedaec",
+                "asset": "13",
+                "info": {
+                  "editorName": "Object_17_png",
+                  "x": 1685,
+                  "y": -112
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "69a8a5d2-5438-484b-9b54-099e839e6c3c",
+                "asset": "7",
+                "info": {
+                  "editorName": "Tile_2_png",
+                  "x": 1870,
+                  "y": 280
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "29d599c5-3d12-4f4a-8c7c-4e6dbec0278d",
+                "asset": "14",
+                "info": {
+                  "editorName": "Object_9_png",
+                  "x": 1399,
+                  "y": 296
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "4ec1ee6c-5333-4f5c-b82b-e612de32b1cf",
+                "asset": "15",
+                "info": {
+                  "editorName": "Tile_6_png",
+                  "x": 2117,
+                  "y": 536
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "522d8994-adfc-47b0-a5be-063d54e95ebb",
+                "asset": "16",
+                "info": {
+                  "editorName": "Tile_3_png",
+                  "x": 2116,
+                  "y": 281
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "69646bb8-51da-4e80-9d60-212ccb68a1ef",
+                "asset": "10",
+                "info": {
+                  "editorName": "Tile_4_png1",
+                  "x": 944,
+                  "y": 550
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "f09e7733-9416-4ac1-9cbf-a1a01e6f241d",
+                "asset": "15",
+                "info": {
+                  "editorName": "Tile_6_png1",
+                  "x": 1200,
+                  "y": 550
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "e27a844b-4514-411b-a07c-8ee2e2c1e1ca",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png1",
+                  "x": 1347,
+                  "y": 387,
+                  "scale.y": 0.9381250169300653
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "6a5c9a8c-dd04-4c86-aa7c-8ab7a74aa3d4",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png2",
+                  "x": 1460,
+                  "y": 326
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "c035e1ea-8251-431e-8d27-94c3ac76c49a",
+                "asset": "12",
+                "info": {
+                  "editorName": "Tile_5_png1",
+                  "x": 1412,
+                  "y": 552
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "3d5781ca-95d7-4117-8423-6204c09e8402",
+                "asset": "15",
+                "info": {
+                  "editorName": "Tile_6_png2",
+                  "x": 1577,
+                  "y": 552
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "68d47153-b9f3-45d1-a813-7091f1c44ae9",
+                "asset": "10",
+                "info": {
+                  "editorName": "Tile_4_png2",
+                  "x": 1210,
+                  "y": 551
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "d0620aaf-778f-4419-87d2-d57849056e78",
+                "asset": "12",
+                "info": {
+                  "editorName": "Tile_5_png2",
+                  "x": 1189,
+                  "y": 550
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "0cf2d259-fb52-4c80-88f8-c0250e0a21b3",
+                "asset": "17",
+                "info": {
+                  "editorName": "Object_5_png",
+                  "x": 428,
+                  "y": 218,
+                  "scale.x": 0.4600000737980924,
+                  "scale.y": 0.4825000205795713
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "c12b24df-89aa-40f3-83bb-49dbc7c210ef",
+                "asset": "18",
+                "info": {
+                  "editorName": "Object_2_png",
+                  "x": 1021,
+                  "y": 311
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "df05ff4a-c6ad-4c7b-a1c7-804b6454a1ca",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png7",
+                  "x": 4715,
+                  "y": 11
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "a4fe891b-0899-4008-8a90-e6f5a7d960f6",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png8",
+                  "x": 5169,
+                  "y": 26
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "efaa1f25-614a-4ff5-bb8b-c00e17f66d52",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png9",
+                  "x": 5723,
+                  "y": 344
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "3a67b474-f6f7-45a0-8e8c-9c2a77ca2647",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png11",
+                  "x": 6559,
+                  "y": 525
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "88173a52-45f5-4c37-a5b3-59db3243aacf",
+                "asset": "4",
+                "info": {
+                  "editorName": "Tile_10_png3",
+                  "x": 6896,
+                  "y": 367
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "6887aa67-0d6c-49c5-9cbc-87a05f09d670",
+                "asset": "5",
+                "info": {
+                  "editorName": "Tile_11_png11",
+                  "x": 7152,
+                  "y": 367
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "4ce852ac-cb7e-4dbb-a120-bf701b7a8c30",
+                "asset": "6",
+                "info": {
+                  "editorName": "Tile_12_png3",
+                  "x": 7406,
+                  "y": 367
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "3d6ab059-25fc-4af9-89dc-9f9f0c3bb65e",
+                "asset": "3",
+                "info": {
+                  "editorName": "Tile_13_png10",
+                  "x": 6256,
+                  "y": 349
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "f431bbf6-70e6-4445-9ecf-972e7119328f",
+          "info": {
+            "editorName": "AIGroup",
+            "physicsGroup": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "spritesheet",
+                "id": "3bf3f1b4-4c63-4efd-a5cf-ab4213b2fbbd",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc6",
+                  "x": 7448,
+                  "y": 789
+                }
+              },
+              {
+                "type": "spritesheet",
+                "id": "96bb712e-8ed7-4268-bbb0-cb5dfcace3cb",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc5",
+                  "x": 6358,
+                  "y": 761
+                }
+              },
+              {
+                "type": "spritesheet",
+                "id": "43fab5a5-47d3-4c98-85b5-0a390d56cf21",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc4",
+                  "x": 4495,
+                  "y": 478
+                }
+              },
+              {
+                "type": "spritesheet",
+                "id": "8c1bbb70-ea8a-429e-8ffa-94afe8bedcd8",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc3",
+                  "x": 3412,
+                  "y": 232
+                }
+              },
+              {
+                "type": "spritesheet",
+                "id": "495596ec-0183-4acd-af66-886af51ebf12",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc2",
+                  "x": 3024,
+                  "y": 246
+                }
+              },
+              {
+                "type": "spritesheet",
+                "id": "682a138f-a039-440a-b82b-d4c3fab958c7",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc1",
+                  "x": 3155,
+                  "y": 771
+                }
+              },
+              {
+                "type": "spritesheet",
+                "id": "8c81cd46-dbb4-4e7c-b3fb-cfce425ffd11",
+                "asset": "19",
+                "info": {
+                  "editorName": "pyromaniacOrc",
+                  "x": 279,
+                  "y": 619,
+                  "scale.x": 1.849971232167875,
+                  "scale.y": 1.9946469263728686,
+                  "animations": [
+                    {
+                      "name": "idleAI",
+                      "frameRate": 6,
+                      "loop": true,
+                      "frames": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "11",
+                        "12",
+                        "13",
+                        "14",
+                        "15",
+                        "16",
+                        "17",
+                        "18",
+                        "19"
+                      ]
+                    },
+                    {
+                      "name": "walkAI",
+                      "frameRate": 8,
+                      "loop": true,
+                      "frames": [
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "24",
+                        "25",
+                        "26",
+                        "27",
+                        "28",
+                        "29"
+                      ]
+                    },
+                    {
+                      "name": "deathAI",
+                      "frameRate": 6,
+                      "loop": true,
+                      "frames": [
+                        "40",
+                        "41",
+                        "42",
+                        "43",
+                        "44",
+                        "45",
+                        "46",
+                        "47",
+                        "48",
+                        "49"
+                      ]
+                    },
+                    {
+                      "name": "attackAI",
+                      "frameRate": 9,
+                      "loop": true,
+                      "frames": [
+                        "30",
+                        "31",
+                        "32",
+                        "33",
+                        "34",
+                        "35",
+                        "36",
+                        "37",
+                        "38",
+                        "39"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "29f5fb36-0331-464e-8c83-c4c4c5874354",
+          "asset": "20",
+          "info": {
+            "editorName": "NobleRanger",
+            "x": 103,
+            "y": 571,
+            "scale.x": 1.849971232167875,
+            "scale.y": 1.9946469263728686,
+            "anchor.x": 0.5,
+            "animations": [
+              {
+                "name": "idle",
+                "frameRate": 8,
+                "loop": true,
+                "frames": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19"
+                ]
+              },
+              {
+                "name": "walk",
+                "frameRate": 6,
+                "loop": true,
+                "frames": [
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29"
+                ]
+              },
+              {
+                "name": "attack",
+                "frameRate": 12,
+                "loop": true,
+                "frames": [
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39"
+                ]
+              },
+              {
+                "name": "death",
+                "frameRate": 8,
+                "frames": [
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "Background"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "collisionTIle.png"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_4.png"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_13.png"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_10.png"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_11.png"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_12.png"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_2.png"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_20.png"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_1.png"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_4.png"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_1.png"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_5.png"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_17.png"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_9.png"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_6.png"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Tile_3.png"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_5.png"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tileset",
+      "sprite": "Object_2.png"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "pyromaniacOrc",
+      "sprite": "0"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "NobleRanger",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

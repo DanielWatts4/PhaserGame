@@ -1,0 +1,61 @@
+{
+  "section": [],
+  "level": [
+    {
+      "type": "image",
+      "key": "Background",
+      "url": "assets/images/Background.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "NobleRanger",
+      "url": "assets/sprites/NobleRanger.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": 50,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "tileset",
+      "textureURL": "assets/platforms/tileset.png",
+      "atlasURL": "assets/platforms/tileset.json",
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "image",
+      "key": "menuScreen",
+      "url": "assets/images/menuScreen.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "pyromaniacOrc",
+      "url": "assets/sprites/pyromaniacOrc.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Arrow",
+      "url": "assets/images/Arrow.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    }
+  ],
+  "meta": {
+    "generated": "1516642387388",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

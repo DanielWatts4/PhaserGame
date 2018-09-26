@@ -1,0 +1,8 @@
+var playerDeaths = 0;
+
+var bootState = {
+	create: function() {
+		game.physics.startSystem(Phaser.Physics.ARCADE);
+		game.state.start('load');
+	}
+};
